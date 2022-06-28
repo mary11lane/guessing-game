@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: burlywood;
+}
+
+h1,
+p {
+    padding: 10px;
+}
+
+.flex-col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.outline-black {
+    outline-style: outset;
+    outline-color: #000;
+    border-radius: 10px;
+}
+
+.message {
+    background-color: #fff;
+    margin: 30px;
+}
+
+.indicators {
+    margin: 20px;
+    font-size: 2rem;
+}
+
+img {
+    width: 15%;
+    height: 15%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+
+input {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+button {
+    font-size: 1.2rem;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    width: 50%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button[type="submit"] {
+    background-color: #476e8c;
+}
+
+#play-again {
+    background-color: red;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 30%;
+        height: 30%;
+    }
+}

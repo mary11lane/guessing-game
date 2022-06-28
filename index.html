@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>012-js-guessing-game</title>
+    </head>
+    <body>
+        <div class="container flex-col-center">
+            <div class="message outline-black">
+                <div class="indicators">Let's start!</div>
+            </div>
+            <img src="assets/dino-image.png" alt="dino-logo" />
+            <header>
+                <h1>Guess the Number</h1>
+            </header>
+            <p>Enter a number between 1 - 20</p>
+            <form class="flex-col-center" onsubmit="onSubmitHandler(event)">
+                <input class="outline-black" type="text" id="input-field" placeholder="Input your guess" />
+                <button class="outline-black" type="submit">Enter</button>
+                <button class="outline-black" id="play-again" onclick="playAgain()">Play Again</button>
+            </form>
+        </div>
+        <footer>&copy; 2022 Lane SB</footer>
+        <script src="app.js" type="text/javascript"></script>
+    </body>
+</html>
